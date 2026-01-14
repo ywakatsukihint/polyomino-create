@@ -3,6 +3,7 @@
 ##概要
 
 正方形の数を固定した Polyomino を生成する JavaScript のプログラムです．
+一部，ChatGPT補助
 
 ##入出力
 
