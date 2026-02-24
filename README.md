@@ -1,3 +1,4 @@
+```
 #nオミノ生成.js
 
 ##概要
@@ -40,8 +41,8 @@ input :4, output:
 	0	0	0	0
 
 
-
-
+```
+```
 # Polyomino木数計算
 
 ## 概要
@@ -78,19 +79,6 @@ input :4, output:
 
 - C++11 以上
 - 推奨コンパイラ：g++（MinGW / WSL / Linux / macOS）
-
----
-
-## コンパイル・実行方法
-
-```bash
-g++ trees_deg4.cpp -std=gnu++11 -O2 -o trees
-./trees
-````
-
-実行後、頂点数 `n` を入力してください。
-
-※ 全列挙のため、`n ≤ 16` 程度が現実的な上限です。
 
 ---
 
@@ -133,8 +121,8 @@ g++ trees_deg4.cpp -std=gnu++11 -O2 -o trees
 ## ライセンス
 
 ご自由にどうぞ。
-
-
+```
+```
 # polyomino.cpp
 
 ## 概要
@@ -161,39 +149,11 @@ g++ trees_deg4.cpp -std=gnu++11 -O2 -o trees
 
 ---
 
-## 使い方
-
-### コンパイル
-
-```bash
-g++ -std=c++17 main.cpp -O2
-````
-
-### 実行
-
-```bash
-./a.out
-```
-
-実行後、標準入力で `N` を入力してください。
-
----
-
 ## 出力例
 
 * 各ポリオミノの形状（`#` がマス）
 * 対応する二部グラフの隣接行列
 * 最後に生成されたポリオミノの総数
-
----
-
-## ファイル構成
-
-```text
-.
-├── main.cpp    // ポリオミノ生成・解析プログラム
-└── README.md   // この説明ファイル
-```
 
 ---
 
@@ -225,7 +185,7 @@ g++ -std=c++17 main.cpp -O2
 
 用途に応じて自由に利用してください（研究・学習目的推奨）。
 
-
+```
 
 
 ```markdown
@@ -267,17 +227,6 @@ Polyomino としては異なるが、
 ### 環境
 - OS: Windows / Linux / macOS
 - コンパイラ: `g++`（C++11 以上）
-
-### コンパイル
-```bash
-g++ polyomino_tree_unique.cpp -std=gnu++11 -O2 -o polyomino_tree_unique
-````
-
-### 実行
-
-```bash
-./polyomino_tree_unique
-```
 
 ---
 
